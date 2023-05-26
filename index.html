@@ -1,30 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
+
 <body>
 
-    <!-- Question 1 -->
+ <div class="container">
+    <div class="calculater">
+ 
+            <label style="margin: bottom 10px;">number 2 :</label>
+            <br>
+          <!-- <p class="label">number 1: </p> -->
+            <input type="number" id="numb1" name="display" style="margin-bottom: 1rem;" >
+
+    <div>
+        <label>operator</label>
+        <br>
+        <!-- <p class="label">operator : </p> -->
+        <input type="text"  id="op" onclick="display.value = '' " style="margin-bottom: 1rem;" class="operator" >
+    </div>
+  
+    <div>
+        <!-- <p class="label">number 2 : </p> -->
+        <label>number 2 :</label>
+        <br>
+       
+        <input type="number" id="numb2" onclick="display.value += '/' " >
+        
+    </div>
+   
+    <div>
+        <br>
+        <input type="text"  id="results" onclick="display.value += '/' " style="background-color: rgb(38, 48, 179); color: antiquewhite;"  >
+        <br>
+        <button onclick=display()>display</button>
+    </div>
     
-    <!-- a variable is a value that can change, depending on conditions or on information passed to the program. -->
-    <!-- Values coding is a method of coding that delves into the subjective nature of the human experience. -->
-    <!-- A data type is a classification of data which tells the compiler or interpreter how the programmer intends to use the data. -->
-    <!--  to set (something, such as a computer program counter) to a starting position, value, or configuration. -->
-    <!--  Variables declared by let are only available inside the block where they're defined. Variables declared by var are available throughout the function in which they're declared .  var and let can be reassigned but variables declared with const can't be reassigned.  -->
-    <!--scope of a variable is its lifetime in the program. This means that the scope of a variable is the block of code in the entire program where the variable is declared, used, and can be modified.  -->
-    <!-- Use a for loop to iterate over an array.
-Use a for loop when you know the loop should execute n times.
-Use a while loop for reading a file into a variable.
-Use a while loop when asking for user input.
-Use a while loop when the increment value is nonstandard. -->
-<!-- Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.  -->
+   
 
-
- <script src="./Script/code.js"></script>   
+</div>
+    </div>
 </body>
+</html>
+        </form>
+    </div>
+ </div>
+    
+
+
+    <script src="./Script/code.js"></script>
+</body>
+
 </html>
