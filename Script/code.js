@@ -1,32 +1,32 @@
- let Name= "Lithini";
- console.log(Name)
+//  let Name= "Lithini";
+//  console.log(Name)
 
- function fullName (){
-   firstName ="lee";
-   let  surname ="skhikhi";
-    return firstName + " " +surname
+//  function fullName (){
+//    firstName ="lee";
+//    let  surname ="skhikhi";
+//     return firstName + " " +surname
 
 
-}
-console.log(fullName());
+// }
+// console.log(fullName());
 
-function age (){
-    let myAge = "19";
-    return myAge 
-}
-console.log(age());
+// function age (){
+//     let myAge = "19";
+//     return myAge 
+// }
+// console.log(age());
 
-function subjects(){
-    let array =["eng","math","afrikaans"]
-    return array
-}
-console.log(subjects());
+// function subjects(){
+//     let array =["eng","math","afrikaans"]
+//     return array
+// }
+// console.log(subjects());
 
-function living(){
-    let myAddress =["Mowbray","Montreal","two street"]
-    return myAddress
-}
-console.log(living());
+// function living(){
+//     let myAddress =["Mowbray","Montreal","two street"]
+//     return myAddress
+// }
+// console.log(living());
 
 //  Question 1 
     
@@ -43,28 +43,35 @@ console.log(living());
 // Use a while loop when the increment value is nonstandard. -->
 //  Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.
 
-function display() {
-    let number2 = document.getElementById('numb2');
-    let number1 = document.getElementById('numb1');
-    let operator = document.getElementById('op');
-    let result;
-    switch (operator.value) {
-      case '+':
-        console.log(typeof number1.value)
-        result = parseInt(number1.value) + parseInt(number2.value);
-        break;
-      case '-':
-        result = number1.value - number2.value;
-        break;
-      case '*':
-        result = number1.value * number2.value;
-        break;
-      case '/':
-        result = number1.value / number2.value;
-        break;
-      default:
-        result = 'Invalid operator';
-    }
+// function display() {
+//     let number2 = document.getElementById('numb2');
+//     let number1 = document.getElementById('numb1');
+//     let operator = document.getElementById('op');
+//     let result;
+//     switch (operator.value) {
+//       case '+':
+//         console.log(typeof number1.value)
+//         result = parseInt(number1.value) + parseInt(number2.value);
+//         break;
+//       case '-':
+//         result = number1.value - number2.value;
+//         break;
+//       case '*':
+//         result = number1.value * number2.value;
+//         break;
+//       case '/':
+//         result = number1.value / number2.value;
+//         break;
+//       default:
+//         result = 'Invalid operator';
+//     }
   
-    document.getElementById('results').value = 'Answer: ' + parseInt(result);
-  }
+//     document.getElementById('results').value = 'Answer: ' + parseInt(result);
+//   }
+
+  
+  let subject = "Programming"
+ subject = [...subject].reverse().join("");
+  console.log(subject)
+
+  
